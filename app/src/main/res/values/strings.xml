@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">رادار سنجش سطح</string>
+    <string name="tab_radar">رادار</string>
+    <string name="tab_map">نقشه</string>
+    <string name="tab_receiver">گیرنده</string>
+    <string name="tab_ai">هوش</string>
+    <string name="tab_matrix">ماتریس</string>
+    <string name="tab_audio_passive">شنود صوتی</string>
+    <string name="tab_offset">نقطه صفر و آفست</string>
+    <string name="scope_badge">رادار رفت‌وبرگشت SAR + چندطیفی Sentinel-2 + DEM</string>
+    <string name="btn_run_scan">پردازش زنده رادار و چندطیفی</string>
+    <string name="btn_use_gps">دریافت مختصات GPS من</string>
+    <string name="btn_grant_location">فعال‌سازی GPS دستگاه</string>
+    <string name="permission_rationale">برای نمایش موقعیت زنده، محاسبه فاصله تا نقطه هدف و هدایت صوتی، دسترسی به موقعیت مکانی دقیق (GPS) نیاز است.</string>
+    <string name="methodology_title">روش‌شناسی و محدوده علمی واقعی</string>
+    <string name="methodology_body">این برنامه مستقیماً به کاتالوگ و سرویس برش رستر Microsoft Planetary Computer و شبکه ارتفاعی/اتمسفری Open-Meteo متصل می‌شود:\n\n۱. حذف نویز ساویتسکی-گولای دوبعدی (۵×۵ درجه‌دو)، رادار رفت‌وبرگشت Sentinel-1 RTC (Ascending + Descending)، هم‌ترازی زیرپیکسلی، فیلتر شیب توپوگرافی DEM کمتر از ۳۵ درجه، اصلاح تاخیر اتمسفری Saastamoinen و حذف خطوط برق از OpenStreetMap.\n۲. پردازش چندطیفی Sentinel-2 L2A شامل حذف ابر (SCL)، حذف پوشش گیاهی (NDVI &lt; 0.22)، حذف شوری سطحی و شاخص کربنات/آهک (SWIR1-SWIR2).\n۳. محاسبه فاصله ماهالانوبیس ۵بعدی روی کل لایه‌های رستر، میانگین‌گیری وزن‌دار GPS ثابت و کالیبراسیون نقطه کنترل زمینی (GCP Shift).\n۴. نقشه زنده ماهواره‌ای/معابر برای ناوبری میدانی تا هدف و دریافت تصویر RGB/SWIR/SAR از نقطه هدف، به‌همراه دستیار صوتی و دوربین زنده با قابلیت اتصال به مدل دلخواه شما (Ollama / OpenRouter بدون وابستگی به جمینای).\n\nتوجه علمی: دقت مطلق ماهواره رایگان Sentinel-1 حدود ۱۰ متر است و این شاخص‌ها ناهنجاری‌های واقعی سطحی و کانی‌شناسی هستند نه تشخیص قطعی جنس فلز یا عمق زیرزمینی.</string>
+</resources>

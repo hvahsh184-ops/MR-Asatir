@@ -1,0 +1,6 @@
+{
+  "name": "رادار سنجش سطح",
+  "description": "تحلیل زنده داده‌های رادار دو‌باند SAR، مدل ارتفاعی DEM، تصحیح اتمسفری، فاصله ماهالانوبیس، کواترنیون و هدایت GPS روی نقطه هدف سطحی",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
